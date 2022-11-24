@@ -1,0 +1,307 @@
+{
+  "propiedades": [
+    {
+      "id": 1,
+      "nombre": " Hermoso 2 Ambientes a Estrenar con Patio ",
+      "descripcion": " Espectacular 2 ambientes  a estrenar en el Complejo Palermo. Cuenta con patio propio de 25 mts. Seguridad presencial las 24 hs",
+      "precio": 100000,
+      "estado": "Alquiler",
+      "barrio": "Palermo",
+      "ubicacion": "Capital Federal",
+      "categoria": "Departamento",
+      "pais": "Argentina",
+      "imagen": [
+        "https://www.zonaprop.com.ar/propiedades/hermoso-2-ambientes-a-estrenar-con-patio-en-complejo-50733647.html",
+        "https://www.zonaprop.com.ar/propiedades/hermoso-2-ambientes-a-estrenar-con-patio-en-complejo-50733647.html",
+        "https://www.zonaprop.com.ar/propiedades/hermoso-2-ambientes-a-estrenar-con-patio-en-complejo-50733647.html",
+        "https://www.zonaprop.com.ar/propiedades/hermoso-2-ambientes-a-estrenar-con-patio-en-complejo-50733647.html"
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": " Departamento Tipo Casa! 3 Amb ",
+      "descripcion": "TRIPLEX TIPO PH / CASA EN COMPLEJO PRIVADO *** EN INMEJORABLE UBICACION DE FLORES / FLORESTA, Ubicado a 2 cuadras de Av Avellaneda y a 9 de Av Nazca - Zona tranquila y familiar",
+      "precio": 23560,
+      "estado": "Alquiler",
+      "barrio": "Flores",
+      "ubicacion": "Capital Federal",
+      "categoria": "Ph",
+      "pais": "Argentina",
+      "imagen": [
+        "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/57/50/94/1200x1200/1837262383.jpg",
+        "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/57/50/94/1200x1200/1837262389.jpg",
+        "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/57/50/94/1200x1200/1837262406.jpg",
+        "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/57/50/94/1200x1200/1837262386.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": " Departamento Único en Alquiler en Av Alvear, Increíble Vista ",
+      "descripcion": "Edificio de gran categoría estilo racionalista. Ubicado sobre la Avenida Alvear a metros de la Iglesia del Pilar. ",
+      "precio": 35000,
+      "estado": "Alquiler",
+      "barrio": "Recoleta",
+      "ubicacion": "Capital Federal",
+      "categoria": "Departamento",
+      "pais": "Argentina",
+      "imagen": [
+        "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/19/97/66/1200x1200/1826484725.jpg",
+        "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/19/97/66/1200x1200/1826484727.jpg",
+        "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/19/97/66/1200x1200/1826484720.jpg",
+        "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/19/97/66/1200x1200/1826484721.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Departamento en Plaza San Martín ",
+      "descripcion": "Departamento en excelente estado,.Amoblado.",
+      "precio": 68000,
+      "estado": "Alquiler",
+      "barrio": "Retiro",
+      "ubicacion": "Capital Federal",
+      "categoria": "Departamento",
+      "pais": "Argentina",
+      "imagen": [
+        "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/64/11/46/1200x1200/1839414147.jpg",
+        "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/64/11/46/1200x1200/1839414149.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Casa Chalet 4 Ambientes Alquiler por Día",
+      "descripcion": "Villa Devoto, Capital Federal/ Casa chalet alquiler temporario/ 4 ambientes/ garage/ patio/quincho",
+      "precio": 30000,
+      "estado": "Alquiler",
+      "barrio": "Villa Deboto",
+      "ubicacion": "Capital Federal",
+      "categoria": "Casa",
+      "pais": "Argentina",
+      "imagen": [
+        "https://imgar.zonapropcdn.com/avisos/resize/1/00/48/18/12/82/1200x1200/1785410694.jpg",
+        "https://imgar.zonapropcdn.com/avisos/resize/1/00/48/18/12/82/1200x1200/1773728920.jpg",
+        "https://imgar.zonapropcdn.com/avisos/resize/1/00/48/18/12/82/1200x1200/1773728919.jpg",
+        "https://imgar.zonapropcdn.com/avisos/resize/1/00/48/18/12/82/1200x1200/1773728926.jpg",
+        "https://imgar.zonapropcdn.com/avisos/resize/1/00/48/18/12/82/1200x1200/1773908459.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "Casa en Alquiler 2 Ambientes",
+      "descripcion": "CONDICIONES DE CONTRATACIÓN: CONTRATO A 3 AÑOS, AJUSTE POR INDICE BANCO CENTRAL, 1 MES DE DEPOSITO, 1 MES ADELANTADO, GARANTIA PROPIETARIA O SEGURO DE CAUCIÓN FINAER.",
+      "precio": 75000,
+      "estado": "Alquiler",
+      "barrio": "Villa Lugano",
+      "ubicacion": "Capital Federal",
+      "categoria": "Casa",
+      "pais": "Argentina",
+      "imagen": [
+        "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/52/10/68/1200x1200/1835552924.jpg",
+        "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/52/10/68/1200x1200/1835552925.jpg",
+        "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/52/10/68/1200x1200/1835552923.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "nombre": "Casa reciclada hace 3 años ",
+      "descripcion": "Todos los servicios. Antigüedad 3 años.",
+      "precio": 70000,
+      "estado": "Alquiler",
+      "barrio": "La Boca ",
+      "ubicacion": "Capital Federal",
+      "categoria": "Casa",
+      "pais": "Argentina",
+      "imagen": [
+        "https://imgar.zonapropcdn.com/avisos/resize/1/00/45/44/78/71/1200x1200/1840825650.jpg",
+        "https://imgar.zonapropcdn.com/avisos/resize/1/00/45/44/78/71/1200x1200/1711302529.jpg",
+        "https://imgar.zonapropcdn.com/avisos/resize/1/00/45/44/78/71/1200x1200/1711302537.jpg"
+      ]
+    },
+    {
+      "id": 8,
+      "nombre": "Casa en Alquiler en Caballito Norte, Caballito",
+      "descripcion": "EXCELENTE ESTADO Y UBICACIÓN, A 200 METROS DEL METROBUS",
+      "precio": 194000,
+      "estado": "Alquiler",
+      "barrio": "Caballito ",
+      "ubicacion": "Capital Federal",
+      "categoria": "Casa",
+      "pais": "Argentina",
+      "imagen": [
+        "https://static1.sosiva451.com/08239021/28a1728a-480d-4c16-b427-4fd73b0d490a_u_large.jpg",
+        "https://static1.sosiva451.com/08239021/53d6cf44-c6e3-48e8-adc2-30ebcc2dcbf5_u_large.jpg",
+        "https://static1.sosiva451.com/08239021/af3a6436-bb34-457d-bf9e-058b9adcde6a_u_large.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "nombre": "Casa en Venta en Villa Devoto",
+      "descripcion": "Casa 5 ambientes con dependencia, parque, parrilla, 2 cocheras cubiertas, playroom - Villa Devoto",
+      "precio": 540000,
+      "estado": "Venta",
+      "barrio": "Villa Deboto ",
+      "ubicacion": "Capital Federal",
+      "categoria": "Casa",
+      "pais": "Argentina",
+      "imagen": [
+        "https://static1.sosiva451.com/93147021/263d036c-3fcc-41c2-8b12-2a076f069243_u_large.jpg",
+        "https://static1.sosiva451.com/93147021/235d786d-0636-4d8d-acae-3e22e8098317_u_large.jpg",
+        "https://static1.sosiva451.com/93147021/54b1f551-1ab1-4826-ab28-3da60172b42d_u_large.jpg"
+      ]
+    },
+    {
+      "id": 10,
+      "nombre": "Casa en Venta ",
+      "descripcion": "Casa 5 ambientes sobre lote 8,66 x 38,68 Mtrs2",
+      "precio": 550000,
+      "estado": "Venta",
+      "barrio": "Floresta ",
+      "ubicacion": "Capital Federal",
+      "categoria": "Casa",
+      "pais": "Argentina",
+      "imagen": [
+        "https://static1.sosiva451.com/70872811/a0e5ada3-1348-4b47-9de0-2686506c61e1_u_large.jpg",
+        "https://static1.sosiva451.com/70872811/46630156-1e5b-42f5-b9c0-3ca3930a94f6_u_large.jpg",
+        "https://static1.sosiva451.com/70872811/c0b4666e-0a86-4cad-b1e7-f70f0efcccc9_u_large.jpg"
+      ]
+    },
+    {
+      "id": 11,
+      "nombre": "Casa en Venta ",
+      "descripcion": "Casa 6 ambientes cochera jardin piscina quincho parrilla - Villa Devoto",
+      "precio": 550000,
+      "estado": "Venta",
+      "barrio": "Villa Deboto ",
+      "ubicacion": "Capital Federal",
+      "categoria": "Casa",
+      "pais": "Argentina",
+      "imagen": [
+        "https://static1.sosiva451.com/55384911/f830ba10-5d16-4e79-b632-a8339152764a_u_large.jpg",
+        "https://static1.sosiva451.com/55384911/03ee4c6f-a50c-4579-98b6-13353ea1babc_u_large.jpg",
+        "https://static1.sosiva451.com/55384911/9469d8d0-f0bb-4c10-a0b3-63570d8951c3_u_large.jpg"
+      ]
+    },
+    {
+      "id": 12,
+      "nombre": "Terreno en Alquiler ",
+      "descripcion": "MEDIDAS POR TITULO son 8,90 de frente al Norte, 8.66 en el contrafrente, 24,15 en lateral al Oeste y 26 mts al lateral Este.",
+      "precio": 25000,
+      "estado": "Alquiler",
+      "barrio": "Flores",
+      "ubicacion": "Capital Federal",
+      "categoria": "Terreno",
+      "pais": "Argentina",
+      "imagen": [
+        "https://static1.sosiva451.com/46773121/dcec70a7-59e6-41c1-95f4-3ea109e64b29_u_large.jpg"
+      ]
+    },
+    {
+      "id": 13,
+      "nombre": "Terreno en Alquiler ",
+      "descripcion": "TRIPLE FRENTE JUNTO A LA UBA FACULTAD DE SOCIALES!!",
+      "precio": 49400,
+      "estado": "Alquiler",
+      "barrio": "Centro",
+      "ubicacion": "Capital Federal",
+      "categoria": "Terreno",
+      "pais": "Argentina",
+      "imagen": [
+        "https://static1.sosiva451.com/14813311/755c13d4-3de1-4371-b825-93d573f213db_u_large.jpg",
+        "https://static1.sosiva451.com/14813311/09413200-2c56-4bfb-83d0-e455814170b0_u_large.jpg"
+      ]
+    },
+    {
+      "id": 14,
+      "nombre": "Terreno en Alquiler en Avellaneda, Buenos Aires",
+      "descripcion": "GALPON EN PQUE INDUSTRIAL VIEJO BUENO 1500 MTS",
+      "precio": 75000,
+      "estado": "Alquiler",
+      "barrio": "Avellaneda",
+      "ubicacion": "Buenos Aires",
+      "categoria": "Terreno",
+      "pais": "Argentina",
+      "imagen": [
+        "https://static1.sosiva451.com/9801908/1d17ea84-d6a6-4d92-ba7d-22578ebc4acf_u_large.jpg",
+        "https://static1.sosiva451.com/9801908/b1c948a5-3187-455b-8a3a-c82dbbd25d9f_u_large.jpg"
+      ]
+    },
+    {
+      "id": 15,
+      "nombre": "Terreno en Venta",
+      "descripcion": "Lote Barrio",
+      "precio": 450000,
+      "estado": "Venta",
+      "barrio": "Wilde",
+      "ubicacion": "Buenos Aires",
+      "categoria": "Terreno",
+      "pais": "Argentina",
+      "imagen": [
+        "https://static1.sosiva451.com/1174585/de916b6c-514a-4437-853d-e57f123cd067_u_large.jpg",
+        "https://static1.sosiva451.com/1174585/371faa79-37d1-4fee-a517-600723349dc1_u_large.jpg"
+      ]
+    },
+    {
+      "id": 15,
+      "nombre": "Local en Alquiler en Puerto Madero",
+      "descripcion": "Local Comercial Apto Gastro 11mts frente 435m tot",
+      "precio": 18000,
+      "estado": "Alquiler",
+      "barrio": "Puerto Madero",
+      "ubicacion": "Capital Federal",
+      "categoria": "Local",
+      "pais": "Argentina",
+      "imagen": [
+        "https://static1.sosiva451.com/19760021/59537c9f-0750-49c6-ae94-9ee0324e90ef_u_large.jpg",
+        "https://static1.sosiva451.com/19760021/edbb8486-a190-4029-8983-61b56eea5266_u_large.jpg",
+        "https://static1.sosiva451.com/19760021/3a0ea101-f53a-4d7e-b95d-8dfcfac0d324_u_large.jpg"
+      ]
+    },
+    {
+      "id": 16,
+      "nombre": "Local en Alquiler en Centro",
+      "descripcion": "IDEAL UBICACIÓN, A MTS. DE AV. CALLAO",
+      "precio": 75000,
+      "estado": "Alquiler",
+      "barrio": "Centro",
+      "ubicacion": "Capital Federal",
+      "categoria": "Local",
+      "pais": "Argentina",
+      "imagen": [
+        "https://static1.sosiva451.com/42728511/adeb4ea0-f529-4463-9b22-cd0bc49238a9_u_large.jpg",
+        "https://static1.sosiva451.com/42728511/cead397f-5346-400f-b6cc-773394b06d9d_u_large.jpg",
+        "https://static1.sosiva451.com/42728511/d5f522a7-99f3-4285-8dcf-c6f0e4a0a344_u_large.jpg"
+      ]
+    },
+    {
+      "id": 17,
+      "nombre": "PH  en Villa del Parque, Capital Federal",
+      "descripcion": "PH 4 ambientes - Villa del Parque - cochera piscina parrilla parque",
+      "precio": 350000,
+      "estado": "Alquiler",
+      "barrio": "Villa del Parque",
+      "ubicacion": "Capital Federal",
+      "categoria": "PH",
+      "pais": "Argentina",
+      "imagen": [
+        "https://static1.sosiva451.com/03411811/ac001c4b-2522-4fb2-a32c-90755c43a2af_u_large.jpg",
+        "https://static1.sosiva451.com/03411811/8a125d1f-f502-45bc-8e15-ee117a448ecb_u_large.jpg",
+        "https://static1.sosiva451.com/03411811/5d0728dd-8d12-46c6-925b-e2113fd131e8_u_large.jpg"
+      ]
+    },
+    {
+      "id": 18,
+      "nombre": "PH en Venta en Villa del Parque",
+      "descripcion": "PH 5 ambientes - Playroom - Cochera - Villa del Parque",
+      "precio": 35000000,
+      "estado": "Venta",
+      "barrio": "Villa del Parque",
+      "ubicacion": "Capital Federal",
+      "categoria": "PH",
+      "pais": "Argentina",
+      "imagen": [
+        "https://static1.sosiva451.com/79560121/def749b3-a7bd-4a50-a619-70f50220f145_u_large.jpg",
+        "https://static1.sosiva451.com/79560121/76f29b21-99aa-4fa4-8630-e2af25f5a537_u_large.jpg",
+        "https://static1.sosiva451.com/79560121/b13860c1-545b-4826-810c-76cb45f28aed_u_large.jpg"
+      ]
+    }
+  ]
+}

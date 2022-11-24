@@ -4,6 +4,8 @@ const { User } = require("../models");
 const { validarAuth } = require("../middlewares/auth");
 const { generateToken, validateToken } = require("../config/tokens");
 
+const { validarAdmin } = require("../middlewares/admin");
+
 routerUsers.post("/registro", (req, res) => {
   User.create(req.body).then((user) => {
     console.log(user, "USER");
@@ -37,6 +39,18 @@ routerUsers.post("/login", (req, res) => {
 routerUsers.post("/logout", (req, res) => {
   res.clearCookie("token");
   res.sendStatus(204);
+});
+
+routerUsers.get("/usuarios", validarAdmin, (req, res) => {
+  User.findAll()
+    .then((result) => {
+      res.status(200).send(result);
+    })
+    .catch((err) => console.log(err, "ERROR"));
+});
+
+routerUsers.delete("/borrarUser", validarAdmin, (req, res) => {
+  User.destroy({ where: { id: req.body.id } }).then(() => res.sendStatus(200));
 });
 
 module.exports = routerUsers;
