@@ -3,7 +3,6 @@ const routerUsers = express.Router();
 const { User } = require("../models");
 const { validarAuth } = require("../middlewares/auth");
 const { generateToken, validateToken } = require("../config/tokens");
-
 const { validarAdmin } = require("../middlewares/admin");
 
 routerUsers.post("/registro", (req, res) => {
@@ -23,7 +22,7 @@ routerUsers.post("/login", (req, res) => {
 
       const payload = {
         email: user.email,
-
+        celular: user.celular,
         nombre: user.nombre,
       };
 
@@ -41,6 +40,31 @@ routerUsers.post("/logout", (req, res) => {
   res.sendStatus(204);
 });
 
+routerUsers.put("/:email", (req, res) => {
+  const email = req.params.email;
+  User.update(req.body, {
+    where: {
+      email,
+    },
+    returning: true,
+  }).then((result) => {
+    //console.log(result[1][0].dataValues);
+    const user = result[1][0].dataValues;
+    const payload = {
+      email: user.email,
+      celular: user.celular,
+      nombre: user.nombre,
+    };
+
+    const token = generateToken(payload);
+
+    res.cookie("token", token);
+
+    res.send(payload);
+  });
+});
+
+//todos los usuarios-->solo admin
 routerUsers.get("/usuarios", validarAdmin, (req, res) => {
   User.findAll()
     .then((result) => {
@@ -49,6 +73,7 @@ routerUsers.get("/usuarios", validarAdmin, (req, res) => {
     .catch((err) => console.log(err, "ERROR"));
 });
 
+//borrar un usuario ---> solo admin
 routerUsers.delete("/borrarUser", validarAdmin, (req, res) => {
   User.destroy({ where: { id: req.body.id } }).then(() => res.sendStatus(200));
 });
