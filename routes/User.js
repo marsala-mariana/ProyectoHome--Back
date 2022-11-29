@@ -24,6 +24,7 @@ routerUsers.post("/login", (req, res) => {
         email: user.email,
         celular: user.celular,
         nombre: user.nombre,
+        admin: user.admin,
       };
 
       const token = generateToken(payload);
@@ -74,8 +75,10 @@ routerUsers.get("/usuarios", validarAdmin, (req, res) => {
 });
 
 //borrar un usuario ---> solo admin
-routerUsers.delete("/borrarUser", validarAdmin, (req, res) => {
-  User.destroy({ where: { id: req.body.id } }).then(() => res.sendStatus(200));
+routerUsers.delete("/borrarUser/:id", validarAdmin, (req, res) => {
+  User.destroy({ where: { id: req.params.id } }).then(() =>
+    res.sendStatus(200)
+  );
 });
 
 module.exports = routerUsers;

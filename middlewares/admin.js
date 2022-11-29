@@ -1,14 +1,25 @@
-const User = require("../models/User");
-
+//const User = require("../models/User");
+const { validateToken } = require("../config/tokens");
 //Validacion para saber si el usuario es admin
 
 const validarAdmin = (req, res, next) => {
-  User.findOne({ where: { email: req.body.email } }).then((usuario) => {
+  const token = req.cookies.token;
+
+  if (!token) return res.sendStatus(401);
+
+  const { user } = validateToken(token);
+
+  if (!user.admin) return res.sendStatus(401);
+
+  req.user = user;
+
+  next();
+};
+
+module.exports = { validarAdmin };
+/* User.findOne({ where: { email: req.body.email } }).then((usuario) => {
     if (!usuario.admin) {
       return res.sendStatus(401);
     }
     next();
-  });
-};
-
-module.exports = { validarAdmin };
+  });*/
