@@ -25,6 +25,7 @@ routerUsers.post("/login", (req, res) => {
         celular: user.celular,
         nombre: user.nombre,
         admin: user.admin,
+        id: user.id,
       };
 
       const token = generateToken(payload);
@@ -51,10 +52,12 @@ routerUsers.put("/:email", (req, res) => {
   }).then((result) => {
     //console.log(result[1][0].dataValues);
     const user = result[1][0].dataValues;
+
     const payload = {
       email: user.email,
       celular: user.celular,
       nombre: user.nombre,
+      id: user.id,
     };
 
     const token = generateToken(payload);

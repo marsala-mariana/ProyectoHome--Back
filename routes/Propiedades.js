@@ -2,10 +2,29 @@ const express = require("express");
 const router = express.Router();
 const { Propiedades } = require("../models/index");
 const { validarAdmin } = require("../middlewares/admin");
+const { Op } = require("sequelize");
 
 //trae todas las propiedades
 router.get("/", (req, res) => {
   Propiedades.findAll().then((prop) => res.send(prop));
+});
+
+//buscar propiedad
+router.get("/busqueda/:busqueda", (req, res) => {
+  Propiedades.findAll({
+    where: {
+      [Op.or]: [
+        { barrio: req.params.busqueda },
+        { pais: req.params.busqueda },
+        { ubicacion: req.params.busqueda },
+        { categoria: req.params.busqueda },
+      ],
+    },
+  })
+    .then((propied) => {
+      res.send(propied);
+    })
+    .catch(() => console.log("Salio mal "));
 });
 
 //por ID

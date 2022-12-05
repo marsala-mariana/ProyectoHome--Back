@@ -3,9 +3,9 @@ const Propiedades = require("./Propiedades");
 
 const Favorito = require("./Favoritos");
 
-User.hasMany(Favorito);
+User.belongsTo(Favorito, { through: "elegidos" });
 
-Favorito.belongsToMany(User, { through: "elegidos" });
+Favorito.belongsTo(User, { through: "elegidos" });
 
 //Favorito.hasOne(Propiedades);
 //Propiedades.belongsTo(Favorito);

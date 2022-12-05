@@ -13,6 +13,18 @@ Favorito.init(
       type: S.INTEGER,
       allowNull: false,
     },
+    nombre: {
+      type: S.STRING,
+      allowNull: false,
+    },
+    precio: {
+      type: S.BIGINT,
+      allowNull: false,
+    },
+    imagen: {
+      type: S.ARRAY(S.STRING),
+      allowNull: false,
+    },
   },
   { sequelize: db, modelName: "favorito" }
 );

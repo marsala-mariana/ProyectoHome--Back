@@ -8,7 +8,7 @@ const validarAdmin = (req, res, next) => {
   if (!token) return res.sendStatus(401);
 
   const { user } = validateToken(token);
-
+  console.log(user, "USER");
   if (!user.admin) return res.sendStatus(401);
 
   req.user = user;
