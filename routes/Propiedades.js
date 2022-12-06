@@ -14,17 +14,33 @@ router.get("/busqueda/:busqueda", (req, res) => {
   Propiedades.findAll({
     where: {
       [Op.or]: [
-        { barrio: req.params.busqueda },
-        { pais: req.params.busqueda },
-        { ubicacion: req.params.busqueda },
-        { categoria: req.params.busqueda },
+        {
+          barrio: {
+            [Op.iLike]: `%${req.params.busqueda}%`,
+          },
+        },
+        {
+          pais: {
+            [Op.iLike]: `%${req.params.busqueda}%`,
+          },
+        },
+        {
+          ubicacion: {
+            [Op.iLike]: `%${req.params.busqueda}%`,
+          },
+        },
+        {
+          categoria: {
+            [Op.iLike]: `%${req.params.busqueda}%`,
+          },
+        },
       ],
     },
   })
     .then((propied) => {
       res.send(propied);
     })
-    .catch(() => console.log("Salio mal "));
+    .catch((error) => console.log("Salio mal ", error));
 });
 
 //por ID
