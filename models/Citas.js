@@ -28,6 +28,9 @@ Citas.init(
     mensaje: {
       type: S.TEXT,
     },
+    imagen: {
+      type: S.ARRAY(S.STRING),
+    },
   },
   { sequelize: db, modelName: "citas" }
 );

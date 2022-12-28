@@ -1,13 +1,14 @@
 const express = require("express");
+const { validarAdmin } = require("../middlewares/admin");
 const routerCitas = express.Router();
 
 const { Citas } = require("../models/index");
 const { User } = require("../models/index");
 
-routerCitas.get(":id", (req, res) => {
+routerCitas.get("/ver/:id", validarAdmin, (req, res) => {
   User.findOne({ where: { id: req.params.id } }).then((user) =>
-    Citas.findAll({ where: { idUsuario: user.id } }).then((result) =>
-      res.send(result)
+    Citas.findAll({ where: { idUsuario: user.id } }).then((resultado) =>
+      res.send(resultado)
     )
   );
 });
@@ -18,7 +19,7 @@ routerCitas.post("/agrega/:id", (req, res) => {
     .catch((error) => console.log(error, "ERRROR"));
 });
 
-routerCitas.delete("/eliminar/:id", (req, res) => {
+routerCitas.delete("/eliminar/:id", validarAdmin, (req, res) => {
   const id = req.params.id;
   Citas.destroy({ where: { id } })
     .then(() => res.sendStatus(200))
