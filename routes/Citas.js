@@ -13,6 +13,10 @@ routerCitas.get("/ver/:id", validarAdmin, (req, res) => {
   );
 });
 
+routerCitas.get("/", (req, res) => {
+  Citas.findAll().then((prop) => res.send(prop));
+});
+
 routerCitas.post("/agrega/:id", (req, res) => {
   Citas.create(req.body)
     .then((resultad) => res.send(resultad))
